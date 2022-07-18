@@ -10,7 +10,7 @@ header{
 }
 
 nav{
-    width: 1150px;
+    width: 1200px;
     height: 150px;
     margin: 0 auto;
     display: flex;
@@ -41,3 +41,39 @@ nav ul li a{
 
 /* main section start here */
 
+/* hero section start here */
+
+.hero{
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.heding{
+    margin-right: 50px;
+}
+
+.heding h2{
+    font-size: 52px;
+}
+.heding-img img{
+    width: 475px;
+    height: 475px;
+    margin: 50px;
+}
+
+.btn{
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 40px;
+    margin: 16px 0;
+    border: none;
+}
+
+.btn i{
+    margin-left: 10px;
+}
+
+/* company start here */
