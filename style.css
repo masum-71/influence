@@ -1,40 +1,40 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-header{
-    width: 100%;
+header {
+  width: 100%;
 }
 
-nav{
-    width: 1200px;
-    height: 150px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  width: 1200px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav h1{
-    font-size: 24px;
-    font-weight: 700;
+nav h1 {
+  font-size: 24px;
+  font-weight: 700;
 }
 
-nav ul{
-    display: flex;
+nav ul {
+  display: flex;
 }
 
-nav ul li{
-    list-style: none;
-    margin: 0 17px;
+nav ul li {
+  list-style: none;
+  margin: 0 17px;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: black;
+nav ul li a {
+  text-decoration: none;
+  color: black;
 }
 
 /* header section end here */
@@ -43,37 +43,49 @@ nav ul li a{
 
 /* hero section start here */
 
-.hero{
-    width: 1150px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
+.hero {
+  width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
 
-.heding{
-    margin-right: 50px;
+.heding {
+  margin-right: 50px;
 }
 
-.heding h2{
-    font-size: 52px;
+.heding h2 {
+  font-size: 52px;
 }
-.heding-img img{
-    width: 475px;
-    height: 475px;
-    margin: 50px;
-}
-
-.btn{
-    background-color: #E02C6D;
-    color: white;
-    padding: 10px 24px;
-    border-radius: 40px;
-    margin: 16px 0;
-    border: none;
+.heding-img img {
+  width: 475px;
+  height: 475px;
+  margin: 50px;
 }
 
-.btn i{
-    margin-left: 10px;
+.btn {
+  background-color: #e02c6d;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 40px;
+  margin: 16px 0;
+  border: none;
+}
+
+.btn i {
+  margin-left: 10px;
 }
 
 /* company start here */
+
+.company {
+  width: 1110px;
+  height: 110px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-items: center;
+  border-top: 2px solid rgb(214, 212, 212);
+  border-bottom: 2px solid rgb(214, 212, 212);
+}
