@@ -154,3 +154,73 @@ span {
 .see i {
   margin-left: 5px;
 }
+
+/* featured section start here */
+
+.featured{
+    width: 1110px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img img{
+    width: 404px;
+    height: 270px;
+    margin-right: 96px;
+}
+
+.feature h4{
+    font-size: 38px;
+}
+
+.feature p{
+    color: #6C6C6C;
+}
+
+.btn-last{
+    margin-top: 16px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+}
+
+/* footer start here */
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 265px;
+    height: 140px;
+    color: white;
+    text-align: center;
+}
+
+.container h5{
+    font-size: 24px;
+}
+
+.container p{
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.container div{
+    margin-top: 16px;
+}
+.container div i{
+    margin: 0 16px;
+}
+
+.container div i:hover{
+    cursor: pointer;
+}
